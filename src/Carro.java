@@ -45,6 +45,8 @@ public class Carro {
                 '}';
     }
 
+    //ao sobreescrever o metodo equals ele compara os valores dos atributos de objetos diferentes,
+    //se os valores forem iguais o equals retorna "true" (se não tivesse implementado esse metodo retornaria "false")
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
